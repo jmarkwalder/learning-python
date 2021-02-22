@@ -1,6 +1,6 @@
 # here is basic translator with interactive input
 # and a character dictionary, which will take as input keystroked
-# dot and dash morse code and return the match letter value  
+# dot and dash morse code eg ('... --- ...") and return the matching ascii letters ( in this case SOS)  
 
 MORSE_CODE = dict({"  ": " * ",".-": "A","-...": "B","-.-.": "C","-..": "D",".": "E","..-.": "F",
                    "--.": "G","....": "H","..": "I",".---": "J","-.-": "K",".-..": "L",
